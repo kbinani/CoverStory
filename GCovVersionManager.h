@@ -31,9 +31,6 @@
 - (NSString*)defaultGCovPath;
 - (NSArray*)installedVersions;
 
-// Extracting versions from gcda/gcno files.
-- (NSString*)versionFromGCovFile:(NSString*)path;
-
 // Figures out the version and returns the right gcov path, if a matching
 // version number isn't found, uses the default.
 - (NSString*)gcovForGCovFile:(NSString*)path;
