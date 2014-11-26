@@ -886,7 +886,7 @@
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_VERSION = "";
 				LIBRARY_SEARCH_PATHS = SnowLeopardGcov;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = "-lgcov";
 			};
 			name = Debug;
@@ -909,7 +909,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_PREPROCESS = YES;
 				LIBRARY_SEARCH_PATHS = SnowLeopardGcov;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 			};
 			name = Release;
 		};
